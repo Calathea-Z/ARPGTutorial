@@ -10,8 +10,7 @@
  * 
  */
 UCLASS()
-class AURA_API AEnemyCharacter : public ACharacterBase
+class AURA_API AEnemyCharacter : public ACharacterBase // Declares the AEnemyCharacter class, which inherits from ACharacter
 {
-	GENERATED_BODY()
-	
+	GENERATED_BODY() // Macro that generates the boilerplate code needed for Unreal Engine class
 };
