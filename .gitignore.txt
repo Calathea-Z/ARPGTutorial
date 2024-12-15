@@ -1,0 +1,48 @@
+# Unreal Engine files
+*.log
+*.vspscc
+*.vssscc
+
+# Config files
+*.ini
+*.user
+*.userprefs
+*.suo
+*.sln
+*.sdf
+*.suo
+*.opensdf
+*.xcodeproj
+*.xcworkspace
+
+# Unreal Engine specific directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore the default Unreal Editor's temporary files
+.vscode/
+.idea/
+
+# Mac-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# Ignore some build directories for other platforms
+Android/
+IOS/
+Linux/
+
+# Unreal Engine 5 specific cache and build files
+*.pdb
+*.obj
+*.exe
+*.dll
+
+# Ignore temporary file system files
+*.bak
+*.swp
