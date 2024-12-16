@@ -10,6 +10,7 @@
 class UInputMappingContext; // Forward declaration of UInputMappingContext class
 class UInputAction; // Forward declaration of UInputAction class
 struct FInputActionValue; // Forward declaration of FInputActionValue struct
+class IEnemyInterface; //Forward declaration of IEnemyInteface
 
 /**
  * AAuraPlayerController class
@@ -22,6 +23,7 @@ class AURA_API AAuraPlayerController : public APlayerController // Declares the 
 
 public:
 	AAuraPlayerController(); // Constructor for the AAuraPlayerController class
+	virtual void PlayerTick(float DeltaTime) override;
 
 protected:
 	virtual void BeginPlay() override; // Override of the BeginPlay function, which is called when the game starts or when the actor is spawned
@@ -35,4 +37,10 @@ private:
 	TObjectPtr<UInputAction> MoveAction; // Pointer to a UInputAction, representing the move action for the player controller
 
 	void Move(const FInputActionValue& InputActionValue); // Function to handle the move action, takes a constant reference to an FInputActionValue as a parameter
+
+	void CursorTrace();
+
+	TScriptInterface<IEnemyInterface> LastActor;
+	TScriptInterface<IEnemyInterface> ThisActor;
 };
+
