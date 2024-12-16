@@ -20,6 +20,8 @@
 				"G:/Repos/Aura/Content/Blueprints/Input/InputActions/IA_Move.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Player/BP_AuraPlayerControl.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Game/BP_AuraGameMode.uasset",
+				"G:/Repos/Aura/Content/Blueprints/Character/BP.uasset",
+				"G:/Repos/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Player/BP_AurePlayerControl.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Character/Aura/ABP_PlayerCharacter.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Character/BP_GoblinSpear.uasset",
