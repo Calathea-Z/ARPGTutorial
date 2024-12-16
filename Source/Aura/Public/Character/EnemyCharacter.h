@@ -4,13 +4,18 @@
 
 #include "CoreMinimal.h"
 #include "Character/CharacterBase.h"
+#include "Interaction/EnemyInterface.h"
 #include "EnemyCharacter.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class AURA_API AEnemyCharacter : public ACharacterBase // Declares the AEnemyCharacter class, which inherits from ACharacter
+class AURA_API AEnemyCharacter : public ACharacterBase, public IEnemyInterface
 {
-	GENERATED_BODY() // Macro that generates the boilerplate code needed for Unreal Engine class
+	GENERATED_BODY()
+
+public:
+	virtual void HighlightActor() override;
+	virtual void UnHighlightActor() override;
 };
