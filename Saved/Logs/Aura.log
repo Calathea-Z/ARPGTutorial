@@ -1094,3 +1094,411 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.16-04.24.32:601][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../Repos/Aura/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
 [2024.12.16-04.24.32:609][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
 [2024.12.16-04.24.38:949][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2024.12.16-04.24.44:239][  0]LogSlate: Using FreeType 2.10.0
+[2024.12.16-04.24.44:260][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.12.16-04.24.44:283][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png' error.
+[2024.12.16-04.24.44:283][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png
+[2024.12.16-04.24.44:357][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2024.12.16-04.24.44:358][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png
+[2024.12.16-04.24.44:358][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2024.12.16-04.24.44:358][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png
+[2024.12.16-04.24.44:543][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
+[2024.12.16-04.24.44:549][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../Repos/Aura/Intermediate/CachedAssetRegistry_*.bin.
+[2024.12.16-04.24.44:549][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2024.12.16-04.24.44:867][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.16-04.24.44:889][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: FinalIfAvailable (editor).
+[2024.12.16-04.24.44:889][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2024.12.16-04.24.44:889][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2024.12.16-04.24.44:925][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2024.12.16-04.24.44:925][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2024.12.16-04.24.44:968][  0]LogDeviceProfileManager: Active device profile: [000004B7F5826400][000004B7ED7C8000 66] WindowsEditor
+[2024.12.16-04.24.44:968][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2024.12.16-04.24.44:972][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.19041.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.22621.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists, Sdk_HasBestVersion")
+[2024.12.16-04.24.45:014][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="G:/Repos/Aura/Aura.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="G:/Repos/Aura/Intermediate/TurnkeyReport_1.log" -log="G:/Repos/Aura/Intermediate/TurnkeyLog_1.log" -project="G:/Repos/Aura/Aura.uproject"  -Device=Win64@ZACHSDESKTOP'
+[2024.12.16-04.24.45:014][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""G:/EpicGames/UE_5.5/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="G:/Repos/Aura/Aura.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="G:/Repos/Aura/Intermediate/TurnkeyReport_1.log" -log="G:/Repos/Aura/Intermediate/TurnkeyLog_1.log" -project="G:/Repos/Aura/Aura.uproject"  -Device=Win64@ZACHSDESKTOP" -nocompile -nocompileuat ]
+[2024.12.16-04.24.45:258][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:267][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 18 to allow recursive sync load to finish
+[2024.12.16-04.24.45:267][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2024.12.16-04.24.45:267][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:267][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 19 to allow recursive sync load to finish
+[2024.12.16-04.24.45:267][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2024.12.16-04.24.45:267][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:274][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 20 to allow recursive sync load to finish
+[2024.12.16-04.24.45:274][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2024.12.16-04.24.45:274][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:274][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 21 to allow recursive sync load to finish
+[2024.12.16-04.24.45:274][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2024.12.16-04.24.45:275][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:289][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:289][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 23 to allow recursive sync load to finish
+[2024.12.16-04.24.45:289][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2024.12.16-04.24.45:289][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:289][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 24 to allow recursive sync load to finish
+[2024.12.16-04.24.45:289][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2024.12.16-04.24.45:289][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:297][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:297][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 26 to allow recursive sync load to finish
+[2024.12.16-04.24.45:297][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2024.12.16-04.24.45:297][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:297][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 27 to allow recursive sync load to finish
+[2024.12.16-04.24.45:297][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2024.12.16-04.24.45:297][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:311][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDiffuse with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2024.12.16-04.24.45:311][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:311][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness has reached state ExportsDone > CreateLinkerLoadExports, releasing request 29 to allow recursive sync load to finish
+[2024.12.16-04.24.45:311][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2024.12.16-04.24.45:311][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:311][  0]LogStreaming: Display: Package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec has reached state ExportsDone > CreateLinkerLoadExports, releasing request 30 to allow recursive sync load to finish
+[2024.12.16-04.24.45:311][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec with requester package /Engine/EngineMaterials/DefaultPostProcessMaterial
+[2024.12.16-04.24.45:312][  0]LogStreaming: Display: Merging postload groups of package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2024.12.16-04.24.45:312][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 28 to allow recursive sync load to finish
+[2024.12.16-04.24.45:312][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2024.12.16-04.24.45:312][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:312][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultPostProcessMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 31 to allow recursive sync load to finish
+[2024.12.16-04.24.45:312][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultPostProcessMaterial with requester package /Engine/EngineMaterials/DefaultLightFunctionMaterial
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 25 to allow recursive sync load to finish
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 32 to allow recursive sync load to finish
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultLightFunctionMaterial with requester package /Engine/EngineMaterials/DefaultDeferredDecalMaterial
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 22 to allow recursive sync load to finish
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: ExportsDone) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial has reached state ExportsDone > CreateLinkerLoadExports, releasing request 33 to allow recursive sync load to finish
+[2024.12.16-04.24.45:313][  0]LogStreaming: Display: Merging postload groups of package /Engine/EngineMaterials/DefaultDeferredDecalMaterial with requester package /Engine/EngineMaterials/WorldGridMaterial
+[2024.12.16-04.24.46:203][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2024.12.16-04.24.46:488][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.12.16-04.24.46:488][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2024.12.16-04.24.46:488][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.12.16-04.24.46:488][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2024.12.16-04.24.46:488][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.12.16-04.24.47:141][  0]LogConfig: Branch 'PIEPreviewSettings' had been unloaded. Reloading on-demand took 1.13ms
+[2024.12.16-04.24.47:244][  0]LogConfig: Branch 'GameplayTagsList' had been unloaded. Reloading on-demand took 1.08ms
+[2024.12.16-04.24.47:311][  0]LogConfig: Branch 'TemplateDefs' had been unloaded. Reloading on-demand took 1.07ms
+[2024.12.16-04.24.47:315][  0]LogConfig: Branch 'TemplateCategories' had been unloaded. Reloading on-demand took 1.06ms
+[2024.12.16-04.24.48:155][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2024.12.16-04.24.48:155][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2024.12.16-04.24.48:429][  0]LogSlate: Border
+[2024.12.16-04.24.48:429][  0]LogSlate: BreadcrumbButton
+[2024.12.16-04.24.48:429][  0]LogSlate: Brushes.Title
+[2024.12.16-04.24.48:429][  0]LogSlate: Default
+[2024.12.16-04.24.48:429][  0]LogSlate: Icons.Save
+[2024.12.16-04.24.48:429][  0]LogSlate: Icons.Toolbar.Settings
+[2024.12.16-04.24.48:429][  0]LogSlate: ListView
+[2024.12.16-04.24.48:429][  0]LogSlate: SoftwareCursor_CardinalCross
+[2024.12.16-04.24.48:429][  0]LogSlate: SoftwareCursor_Grab
+[2024.12.16-04.24.48:429][  0]LogSlate: TableView.DarkRow
+[2024.12.16-04.24.48:429][  0]LogSlate: TableView.Row
+[2024.12.16-04.24.48:429][  0]LogSlate: TreeView
+[2024.12.16-04.24.50:054][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2024.12.16-04.24.50:059][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 6.036 ms
+[2024.12.16-04.24.50:132][  0]LogConfig: Branch 'Mass' had been unloaded. Reloading on-demand took 1.09ms
+[2024.12.16-04.24.50:287][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2024.12.16-04.24.50:287][  0]LogInit: XR: MultiViewport is Disabled
+[2024.12.16-04.24.50:287][  0]LogInit: XR: Mobile Multiview is Disabled
+[2024.12.16-04.24.50:287][  0]LogTurnkeySupport: Turnkey Device: Win64@ZachsDesktop: (Name=ZachsDesktop, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.19045.0, Flags="Device_InstallSoftwareValid")
+[2024.12.16-04.24.50:729][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2024.12.16-04.24.50:729][  0]LogNNERuntimeORT: 0: NVIDIA GeForce RTX 4060 (Compute, Graphics)
+[2024.12.16-04.24.50:729][  0]LogNNERuntimeORT: 1: Microsoft Basic Render Driver (Compute, Graphics)
+[2024.12.16-04.24.50:729][  0]LogNNERuntimeORT: No NPU adapter found!
+[2024.12.16-04.24.53:591][  0]LogConfig: Branch 'TranslationPickerSettings' had been unloaded. Reloading on-demand took 1.10ms
+[2024.12.16-04.24.54:182][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.12.16-04.24.54:221][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2024.12.16-04.24.54:221][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.12.16-04.24.54:222][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:56134'.
+[2024.12.16-04.24.54:226][  0]LogUdpMessaging: Display: Added local interface '192.168.0.12' to multicast group '230.0.0.1:6666'
+[2024.12.16-04.24.54:226][  0]LogUdpMessaging: Display: Added local interface '192.168.56.1' to multicast group '230.0.0.1:6666'
+[2024.12.16-04.24.55:183][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: FDE27007AC674BA38000000000007B00 | Instance: 1A9062BB42E97C7106698283EC3AAA2C (ZACHSDESKTOP-32676).
+[2024.12.16-04.24.56:485][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2024.12.16-04.24.56:486][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2024.12.16-04.24.56:514][  0]LogMetaSound: MetaSound Engine Initialized
+[2024.12.16-04.24.58:554][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2024.12.16-04.24.58:708][  0]SourceControl: Revision control is disabled
+[2024.12.16-04.24.58:862][  0]SourceControl: Revision control is disabled
+[2024.12.16-04.24.58:944][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png' error.
+[2024.12.16-04.24.58:944][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png
+[2024.12.16-04.25.02:411][  0]LogConfig: Branch 'ObjectMixerSerializedData' had been unloaded. Reloading on-demand took 1.17ms
+[2024.12.16-04.25.02:483][  0]LogConfig: Branch 'Crypto' had been unloaded. Reloading on-demand took 1.11ms
+[2024.12.16-04.25.03:770][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.12.16-04.25.03:911][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.12.16-04.25.03:911][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.12.16-04.25.04:571][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/glf/resources/plugInfo.json'
+[2024.12.16-04.25.04:578][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVol/resources/plugInfo.json'
+[2024.12.16-04.25.04:585][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdPhysics/resources/plugInfo.json'
+[2024.12.16-04.25.04:591][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hd/resources/plugInfo.json'
+[2024.12.16-04.25.04:599][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/plugInfo.json'
+[2024.12.16-04.25.04:605][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdVolImaging/resources/plugInfo.json'
+[2024.12.16-04.25.04:615][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProc/resources/plugInfo.json'
+[2024.12.16-04.25.04:621][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdGp/resources/plugInfo.json'
+[2024.12.16-04.25.04:630][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdGeom/resources/plugInfo.json'
+[2024.12.16-04.25.04:636][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdProcImaging/resources/plugInfo.json'
+[2024.12.16-04.25.04:643][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdSt/resources/plugInfo.json'
+[2024.12.16-04.25.04:649][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdAbc/resources/plugInfo.json'
+[2024.12.16-04.25.04:656][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRi/resources/plugInfo.json'
+[2024.12.16-04.25.04:663][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdStorm/resources/plugInfo.json'
+[2024.12.16-04.25.04:672][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdLux/resources/plugInfo.json'
+[2024.12.16-04.25.04:678][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hdx/resources/plugInfo.json'
+[2024.12.16-04.25.04:685][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hgiGL/resources/plugInfo.json'
+[2024.12.16-04.25.04:691][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImagingGL/resources/plugInfo.json'
+[2024.12.16-04.25.04:697][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRiPxrImaging/resources/plugInfo.json'
+[2024.12.16-04.25.04:705][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkel/resources/plugInfo.json'
+[2024.12.16-04.25.04:711][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdHydra/resources/plugInfo.json'
+[2024.12.16-04.25.04:719][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdRender/resources/plugInfo.json'
+[2024.12.16-04.25.04:725][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/hio/resources/plugInfo.json'
+[2024.12.16-04.25.04:732][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMtlx/resources/plugInfo.json'
+[2024.12.16-04.25.04:738][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdSkelImaging/resources/plugInfo.json'
+[2024.12.16-04.25.04:747][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShade/resources/plugInfo.json'
+[2024.12.16-04.25.04:753][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ndr/resources/plugInfo.json'
+[2024.12.16-04.25.04:759][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdMedia/resources/plugInfo.json'
+[2024.12.16-04.25.04:766][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdf/resources/plugInfo.json'
+[2024.12.16-04.25.04:776][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdUI/resources/plugInfo.json'
+[2024.12.16-04.25.04:784][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/ar/resources/plugInfo.json'
+[2024.12.16-04.25.04:791][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/sdrGlslfx/resources/plugInfo.json'
+[2024.12.16-04.25.04:801][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdImaging/resources/plugInfo.json'
+[2024.12.16-04.25.04:808][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usdShaders/resources/plugInfo.json'
+[2024.12.16-04.25.04:815][  0]LogUsd: Updated LibraryPaths for USD plugInfo.json file 'G:/EpicGames/UE_5.5/Engine/Binaries/ThirdParty/USD/UsdResources/Win64/plugins/usd/resources/codegenTemplates/plugInfo.json'
+[2024.12.16-04.25.05:186][  0]LogCollectionManager: Loaded 0 collections in 0.001872 seconds
+[2024.12.16-04.25.05:188][  0]LogFileCache: Scanning file cache for directory 'G:/Repos/Aura/Saved/Collections/' took 0.00s
+[2024.12.16-04.25.05:191][  0]LogFileCache: Scanning file cache for directory 'G:/Repos/Aura/Content/Developers/zsyke/Collections/' took 0.00s
+[2024.12.16-04.25.05:194][  0]LogFileCache: Scanning file cache for directory 'G:/Repos/Aura/Content/Collections/' took 0.00s
+[2024.12.16-04.25.05:549][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png' error.
+[2024.12.16-04.25.05:549][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Developer/PlasticSourceControl/Resources/Icon128.png
+[2024.12.16-04.25.05:557][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2024.12.16-04.25.05:557][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png
+[2024.12.16-04.25.05:557][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2024.12.16-04.25.05:557][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png
+[2024.12.16-04.25.05:643][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png' error.
+[2024.12.16-04.25.05:643][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Plugins/Interchange/Editor/Content/Old/Tiles/Outer/alertSolid.png
+[2024.12.16-04.25.05:683][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.16.4-36651368 booting at 2024-12-16T04:25:05.683Z using C
+[2024.12.16-04.25.05:683][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.19041.5072.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=Aura, ProductVersion=++UE5+Release-5.5-CL-38445549, IsServer=false, Flags=DisableOverlay]
+[2024.12.16-04.25.05:684][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2024.12.16-04.25.05:685][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2024.12.16-04.25.05:697][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2024.12.16-04.25.05:699][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2024.12.16-04.25.05:699][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2024.12.16-04.25.05:700][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000317
+[2024.12.16-04.25.05:700][  0]LogFab: Display: Logging in using persist
+[2024.12.16-04.25.05:701][  0]LogEOSSDK: Warning: LogEOSAuth: No existing persistent auth credentials were found for automatic login.
+[2024.12.16-04.25.05:825][  0]LogUObjectArray: 43629 objects as part of root set at end of initial load.
+[2024.12.16-04.25.05:825][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.12.16-04.25.05:846][  0]LogStreaming: Display: AsyncLoading2 - NotifyRegistrationComplete: Registered 36322 public script object entries (984.86 KB)
+[2024.12.16-04.25.05:846][  0]LogStreaming: Display: AsyncLoading2 - Thread Started: false, IsInitialLoad: false
+[2024.12.16-04.25.06:136][  0]LogEngine: Initializing Engine...
+[2024.12.16-04.25.06:146][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2024.12.16-04.25.06:146][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.12.16-04.25.06:629][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2024.12.16-04.25.06:743][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2024.12.16-04.25.06:807][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.12.16-04.25.06:807][  0]LogInit: Texture streaming: Enabled
+[2024.12.16-04.25.06:925][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.5.1-38445549+++UE5+Release-5.5
+[2024.12.16-04.25.06:961][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.12.16-04.25.07:024][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.12.16-04.25.07:031][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.12.16-04.25.07:031][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.12.16-04.25.07:032][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.12.16-04.25.07:032][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-04.25.07:032][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-04.25.07:032][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-04.25.07:032][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-04.25.07:032][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.16-04.25.07:032][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-04.25.07:032][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.16-04.25.07:032][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-04.25.07:032][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-04.25.07:032][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-04.25.07:032][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-04.25.07:094][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-04.25.07:189][  0]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2024.12.16-04.25.07:191][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-04.25.07:228][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-04.25.07:228][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-04.25.07:230][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2024.12.16-04.25.07:230][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=1
+[2024.12.16-04.25.07:233][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.12.16-04.25.07:233][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2024.12.16-04.25.07:233][  0]LogInit: FAudioDevice initialized with ID 1.
+[2024.12.16-04.25.07:233][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.12.16-04.25.07:233][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2024.12.16-04.25.07:273][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.12.16-04.25.07:288][  0]LogInit: Undo buffer set to 256 MB
+[2024.12.16-04.25.07:288][  0]LogInit: Transaction tracking system initialized
+[2024.12.16-04.25.07:373][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../Repos/Aura/Saved/SourceControl/UncontrolledChangelists.json
+[2024.12.16-04.25.07:964][  0]LogConfig: Branch 'LocalizationServiceSettings' had been unloaded. Reloading on-demand took 1.18ms
+[2024.12.16-04.25.07:970][  0]LocalizationService: Localization service is disabled
+[2024.12.16-04.25.08:063][  0]LogTimingProfiler: Initialize
+[2024.12.16-04.25.08:065][  0]LogTimingProfiler: OnSessionChanged
+[2024.12.16-04.25.08:065][  0]LoadingProfiler: Initialize
+[2024.12.16-04.25.08:065][  0]LoadingProfiler: OnSessionChanged
+[2024.12.16-04.25.08:066][  0]LogNetworkingProfiler: Initialize
+[2024.12.16-04.25.08:067][  0]LogNetworkingProfiler: OnSessionChanged
+[2024.12.16-04.25.08:067][  0]LogMemoryProfiler: Initialize
+[2024.12.16-04.25.08:067][  0]LogMemoryProfiler: OnSessionChanged
+[2024.12.16-04.25.09:212][  0]LogFileCache: Scanning file cache for directory 'G:/Repos/Aura/Content/' took 0.03s
+[2024.12.16-04.25.09:431][  0]LogNNEDenoiser: Ray Tracing is not enabled, therefore NNEDenoiser is not registered!
+[2024.12.16-04.25.09:537][  0]LogPython: Using Python 3.11.8
+[2024.12.16-04.25.11:095][  0]LogPython: Display: No enabled plugins with python dependencies found, skipping
+[2024.12.16-04.25.11:536][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2024.12.16-04.25.12:070][  0]LogStreaming: Warning: Failed to read file 'Common/Selector.png' error.
+[2024.12.16-04.25.12:070][  0]LogSlate: Could not find file for Slate resource: Common/Selector.png
+[2024.12.16-04.25.12:422][  0]LogEditorDataStorage: Initializing
+[2024.12.16-04.25.12:426][  0]LogEditorDataStorage: Initialized
+[2024.12.16-04.25.12:494][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2024.12.16-04.25.12:523][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.12.16-04.25.12:529][  0]SourceControl: Revision control is disabled
+[2024.12.16-04.25.12:529][  0]LogUnrealEdMisc: Loading editor; pre map load, took 59.314
+[2024.12.16-04.25.12:533][  0]Cmd: MAP LOAD FILE="../../../../../Repos/Aura/Content/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.12.16-04.25.12:544][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-04.25.12:544][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-04.25.12:560][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.12.16-04.25.12:566][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.12.16-04.25.13:229][  0]LogMetaSound: Display: Resave recommended: Asset 'sfx_Footsteps' at '/Game/Assets/Sounds/FootSteps/sfx_Footsteps.sfx_Footsteps' successfully migrated editor data in target document version 'v1.12'.
+[2024.12.16-04.25.13:335][  0]LogAssetRegistry: Display: Asset registry cache written as 35.4 MiB to ../../../../../Repos/Aura/Intermediate/CachedAssetRegistry_*.bin
+[2024.12.16-04.25.13:366][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartupMap'.
+[2024.12.16-04.25.13:366][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2024.12.16-04.25.13:385][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.12.16-04.25.13:402][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.16-04.25.13:402][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.12.16-04.25.13:402][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.061ms to complete.
+[2024.12.16-04.25.13:427][  0]LogUnrealEdMisc: Total Editor Startup Time, took 60.212
+[2024.12.16-04.25.13:564][  0]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.12.16-04.25.13:742][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-04.25.13:807][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-04.25.13:868][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-04.25.13:933][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-04.25.14:221][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:230][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:232][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:243][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:244][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:256][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:256][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:267][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:269][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:278][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:278][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:287][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:287][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:297][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:297][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:306][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:306][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:317][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2024.12.16-04.25.14:317][  0]LogPakFile: Initializing PakPlatformFile
+[2024.12.16-04.25.14:326][  0]LogPakFile: Display: Mounted Pak file 'G:/EpicGames/UE_5.5/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2024.12.16-04.25.15:034][  0]LogSlate: Took 0.007623 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.12.16-04.25.15:047][  0]LogSlate: Took 0.006313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.12.16-04.25.15:215][  0]LogSlate: Took 0.007213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.12.16-04.25.15:602][  0]LogStall: Startup...
+[2024.12.16-04.25.15:606][  0]LogStall: Startup complete.
+[2024.12.16-04.25.15:674][  0]LogLoad: (Engine Initialization) Total time: 62.46 seconds
+[2024.12.16-04.25.15:995][  0]LogContentStreaming: Texture pool size now 800 MB
+[2024.12.16-04.25.15:995][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="800"
+[2024.12.16-04.25.16:068][  0]LogAutomationController: Ignoring very large delta of 16988330.04 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.16-04.25.16:070][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-04.25.16:078][  0]LogFab: Error: Login failed - error code: EOS_InvalidAuth
+[2024.12.16-04.25.16:078][  0]LogFab: Display: Logging in using exchange code
+[2024.12.16-04.25.16:078][  0]LogFab: Display: Reading exchange code from commandline
+[2024.12.16-04.25.16:078][  0]LogEOSSDK: Error: LogEOSAuth: Invalid parameter EOS_Auth_Credentials.Token reason: must not be null or empty
+[2024.12.16-04.25.16:080][  0]LogPython: Display: Running start-up script G:/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2024.12.16-04.25.16:484][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2024.12.16-04.25.16:490][  0]LogPython: Display: Running start-up script G:/EpicGames/UE_5.5/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 410.336 ms
+[2024.12.16-04.25.16:761][  1]LogAssetRegistry: AssetRegistryGather time 0.2000s: AssetDataDiscovery 0.0889s, AssetDataGather 0.0210s, StoreResults 0.0901s. Wall time 32.2220s.
+	NumCachedDirectories 0. NumUncachedDirectories 1691. NumCachedFiles 7984. NumUncachedFiles 2.
+	BackgroundTickInterruptions 0.
+[2024.12.16-04.25.16:798][  1]LogSourceControl: Uncontrolled asset enumeration started...
+[2024.12.16-04.25.16:799][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2024.12.16-04.25.16:826][  1]LogFab: Error: Login failed - error code: EOS_InvalidParameters
+[2024.12.16-04.25.16:870][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 11.126648
+[2024.12.16-04.25.16:871][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2024.12.16-04.25.16:875][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11.169855
+[2024.12.16-04.25.17:253][  5]LogSourceControl: Uncontrolled asset enumeration finished in 0.455396 seconds (Found 7962 uncontrolled assets)
+[2024.12.16-04.25.18:116][  7]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2024.12.16-04.25.18:781][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 12.748514
+[2024.12.16-04.25.18:784][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 758315952
+[2024.12.16-04.25.18:784][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12.748514, Update Interval: 333.827942
+[2024.12.16-04.26.32:595][231]LogDerivedDataCache: C:/Users/zsyke/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.16-04.26.46:160][622]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.16-04.26.46:172][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.12.16-04.26.46:181][622]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.12.16-04.26.46:181][622]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.12.16-04.26.46:181][622]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_StartupMap
+[2024.12.16-04.26.46:185][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004112s)
+[2024.12.16-04.26.46:185][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/StartupMap.StartupMap to /Game/Maps/UEDPIE_0_StartupMap.StartupMap (0.004174s)
+[2024.12.16-04.26.46:234][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.12.16-04.26.46:235][622]LogChaosDD: Creating Chaos Debug Draw Scene for world StartupMap
+[2024.12.16-04.26.46:238][622]LogPlayLevel: PIE: World Init took: (0.002648s)
+[2024.12.16-04.26.46:239][622]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.12.16-04.26.46:239][622]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.16-04.26.46:239][622]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.16-04.26.46:239][622]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.16-04.26.46:239][622]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.16-04.26.46:239][622]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.16-04.26.46:239][622]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.16-04.26.46:239][622]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.16-04.26.46:239][622]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.16-04.26.46:239][622]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.16-04.26.46:239][622]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.16-04.26.46:239][622]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.16-04.26.46:242][622]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.16-04.26.46:282][622]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2024.12.16-04.26.46:282][622]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.16-04.26.46:282][622]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.16-04.26.46:282][622]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.16-04.26.46:283][622]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.12.16-04.26.46:283][622]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=2
+[2024.12.16-04.26.46:286][622]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.12.16-04.26.46:286][622]LogInit: FAudioDevice initialized with ID 2.
+[2024.12.16-04.26.46:286][622]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.12.16-04.26.46:286][622]LogAudio: Display: Audio Device (ID: 2) registered with world 'StartupMap'.
+[2024.12.16-04.26.46:286][622]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.12.16-04.26.46:291][622]LogLoad: Game class is 'BP_AuraGameMode_C'
+[2024.12.16-04.26.46:294][622]LogWorld: Bringing World /Game/Maps/UEDPIE_0_StartupMap.StartupMap up for play (max tick rate 0) at 2024.12.15-21.26.46
+[2024.12.16-04.26.46:295][622]LogWorld: Bringing up level for play took: 0.002155
+[2024.12.16-04.26.46:297][622]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2024.12.16-04.26.46:335][622]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.12.16-04.26.46:335][622]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.12.16-04.26.46:338][622]PIE: Server logged in
+[2024.12.16-04.26.46:339][622]PIE: Play in editor total start time 0.17 seconds.
+[2024.12.16-04.26.47:937][739]LogMetaSound: Display: Auto-Updating '/Game/Assets/Sounds/FootSteps/sfx_Footsteps.sfx_Footsteps' node class 'UE.Wave Player.Stereo (v1.0)': Interface change detected.
+[2024.12.16-04.26.56:181][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.12.16-04.26.56:277][442]LogStall: Shutdown...
+[2024.12.16-04.26.56:277][442]LogStall: Shutdown complete.
+[2024.12.16-04.26.56:349][442]LogSlate: Window 'Aura - Unreal Editor' being destroyed
+[2024.12.16-04.26.56:415][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-04.26.56:415][442]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_StartupMap
+[2024.12.16-04.26.56:416][442]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-04.26.56:416][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-04.26.56:420][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.16-04.26.56:425][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-04.26.56:438][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.16-04.26.56:438][442]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.12.16-04.26.56:439][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.12.16-04.26.56:441][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.12.16-04.26.56:453][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.12.16-04.26.56:500][442]Cmd: QUIT_EDITOR
+[2024.12.16-04.26.56:501][442]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.12.16-04.26.56:508][443]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.12.16-04.26.56:509][443]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.12.16-04.26.56:509][443]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.12.16-04.26.56:511][443]LogWorld: UWorld::CleanupWorld for StartupMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.16-04.26.56:511][443]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.16-04.26.56:533][443]LogStylusInput: Shutting down StylusInput subsystem.
+[2024.12.16-04.26.56:536][443]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.12.16-04.26.56:545][443]LogStudioTelemetry: Ended StudioTelemetry Session
+[2024.12.16-04.26.56:548][443]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2024.12.16-04.26.56:548][443]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2024.12.16-04.26.56:548][443]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2024.12.16-04.26.57:490][443]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.12.16-04.26.57:490][443]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.12.16-04.26.57:490][443]LogAudio: Display: Audio Device unregistered from world 'StartupMap'.
+[2024.12.16-04.26.57:490][443]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2024.12.16-04.26.57:490][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.16-04.26.57:492][443]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.12.16-04.26.57:541][443]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2024.12.16-04.26.57:541][443]LogAudio: Display: Audio Device Manager Shutdown
+[2024.12.16-04.26.57:542][443]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.12.16-04.26.57:545][443]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.12.16-04.26.57:545][443]LogExit: Preparing to exit.
+[2024.12.16-04.26.57:574][443]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.12.16-04.26.58:383][443]LogEditorDataStorage: Deinitializing
