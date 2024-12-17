@@ -1,23 +1,33 @@
 #pragma once // Ensures the file is only included once during compilation
 
 #include "CoreMinimal.h" // Includes the core minimal set of headers required for Unreal Engine
+#include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h" // Includes the base character class from Unreal Engine
 #include "CharacterBase.generated.h" // Generates the necessary code for the CharacterBase class
 
+class UAbilitySystemComponent;
+class UAttributeSet;
 UCLASS(Abstract) // Declares this class as an abstract class, meaning it cannot be instantiated directly
 
-class AURA_API ACharacterBase : public ACharacter // Declares the ACharacterBase class, which inherits from ACharacter
+class AURA_API ACharacterBase : public ACharacter, public IAbilitySystemInterface
 {
 	GENERATED_BODY() // Macro that generates the boilerplate code needed for Unreal Engine classes
 
 public: 
 	ACharacterBase(); // Constructor for the ACharacterBase class
-
+	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
+	UAttributeSet* GetAttributeSet() const {return AttributeSet; }
 protected:
 	virtual void BeginPlay() override; // Override of the BeginPlay function, which is called when the game starts or when the actor is spawned
 
 	UPROPERTY(EditAnywhere, Category="Combat") // Exposes the Weapon property to the Unreal Editor, allowing it to be edited in the "Combat" category
 	TObjectPtr<USkeletalMeshComponent> Weapon; // Pointer to a USkeletalMeshComponent, representing the weapon of the character
+	
+	UPROPERTY()
+	TObjectPtr<UAbilitySystemComponent> AbilitySystemComponent;
+
+	UPROPERTY()
+	TObjectPtr<UAttributeSet> AttributeSet;
 
 	// A pointer is a variable that stores the memory address of another variable. 
 	// In C++, pointers are used to directly access and manipulate memory, which can be more efficient than copying data.
