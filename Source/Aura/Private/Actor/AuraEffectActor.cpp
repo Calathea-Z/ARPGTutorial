@@ -18,8 +18,6 @@ AAuraEffectActor::AAuraEffectActor()
 
 	Sphere = CreateDefaultSubobject<USphereComponent>("Sphere");
 	Sphere->SetupAttachment(GetRootComponent());
-	
-
 }
 
 void AAuraEffectActor::OnOverlap(UPrimitiveComponent* OverlappedComponent,
@@ -35,7 +33,6 @@ void AAuraEffectActor::OnOverlap(UPrimitiveComponent* OverlappedComponent,
 		MutableAuraAttributeSet->SetHealth(AuraAttributeSet->GetHealth() + 25.f);
 		Destroy();
 	}
-	
 }
 
 void AAuraEffectActor::EndOverlap(UPrimitiveComponent* OverlappedComponent,
