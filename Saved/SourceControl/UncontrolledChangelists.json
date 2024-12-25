@@ -23,6 +23,7 @@
 				"G:/Repos/Aura/Content/Blueprints/Character/BP_EnemyBase.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Player/BP_AuraPlayerState.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/BP_HealthPotion.uasset",
+				"G:/Repos/Aura/Content/Blueprints/UI/ProgressBar/WBP_GlobeProgressBar.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Character/BP.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Player/BP_AurePlayerControl.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Character/Aura/ABP_PlayerCharacter.uasset",
