@@ -58,9 +58,11 @@ void AAuraPlayerController::BeginPlay()
 
     // Get the enhanced input subsystem for the local player
     UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(GetLocalPlayer());
-    check(Subsystem); // Ensure that the subsystem is valid
-    Subsystem->AddMappingContext(AuraContext, 0); // Add the input mapping context
-
+    if (Subsystem)  // Ensure that the subsystem is valid
+    {
+        Subsystem->AddMappingContext(AuraContext, 0); // Add the input mapping context
+    }
+    
     bShowMouseCursor = true; // Show the mouse cursor
     DefaultMouseCursor = EMouseCursor::Default; // Set the default mouse cursor
     FInputModeGameAndUI InputModeData; // Create an input mode for game and UI
