@@ -7,7 +7,6 @@
 #include "GameplayEffectTypes.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/Controller.h"
-#include "GameFramework/Character.h"
 
 // Always include the generated header LAST
 #include "AuraAttributeSet.generated.h"
