@@ -29,6 +29,12 @@ protected:
 	UPROPERTY()
 	TObjectPtr<UAttributeSet> AttributeSet;
 
+	virtual void InitAbilityActorInfo();
+
+
+
+	
+
 	// A pointer is a variable that stores the memory address of another variable. 
 	// In C++, pointers are used to directly access and manipulate memory, which can be more efficient than copying data.
 	// Pointers are declared using the asterisk (*) symbol. For example, 'int* ptr;' declares a pointer to an integer.
