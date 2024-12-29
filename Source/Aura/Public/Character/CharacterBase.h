@@ -5,6 +5,7 @@
 #include "GameFramework/Character.h" // Includes the base character class from Unreal Engine
 #include "CharacterBase.generated.h" // Generates the necessary code for the CharacterBase class
 
+class UGameplayEffect;
 class UAbilitySystemComponent;
 class UAttributeSet;
 UCLASS(Abstract) // Declares this class as an abstract class, meaning it cannot be instantiated directly
@@ -31,10 +32,11 @@ protected:
 
 	virtual void InitAbilityActorInfo();
 
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category="Attributes")
+	TSubclassOf<UGameplayEffect> DefaultPrimaryAttributes;
 
-
+	void InitializePrimaryAttributes() const;
 	
-
 	// A pointer is a variable that stores the memory address of another variable. 
 	// In C++, pointers are used to directly access and manipulate memory, which can be more efficient than copying data.
 	// Pointers are declared using the asterisk (*) symbol. For example, 'int* ptr;' declares a pointer to an integer.
