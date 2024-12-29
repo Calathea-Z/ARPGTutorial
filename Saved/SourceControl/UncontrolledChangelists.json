@@ -44,6 +44,7 @@
 				"G:/Repos/Aura/Content/Blueprints/AbilitySystem/GameplayTags/DT_PrimaryAttributes.uasset",
 				"G:/Repos/Aura/Content/Blueprints/UI/Data/DT_MessageWidgetData.uasset",
 				"G:/Repos/Aura/Content/Blueprints/UI/Overlay/SubWidget/WBP_EffectMessage.uasset",
+				"G:/Repos/Aura/Content/Blueprints/AbilitySystem/Data/DT_InitialPrimaryValues.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/Potion/CT_PotionHeal.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/Potion/GE_CrystalHeal.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/Potion/GE_CrystalMana.uasset",

@@ -23,6 +23,12 @@ void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 	FDoRepLifetimeParams LifetimeParams;
 	LifetimeParams.Condition = COND_None;
 
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Strength, LifetimeParams);
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Intelligence, LifetimeParams);
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Resilience, LifetimeParams);
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Vigor, LifetimeParams);
+
+	
 	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Health, LifetimeParams);
 	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, MaxHealth, LifetimeParams);
 	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Mana, LifetimeParams);
@@ -114,5 +120,25 @@ void UAuraAttributeSet::OnRep_Mana(const FGameplayAttributeData& OldMana) const
 void UAuraAttributeSet::OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana) const
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, MaxMana, OldMaxMana);
+}
+
+void UAuraAttributeSet::OnRep_Strength(const FGameplayAttributeData& OldStrength) const
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, Strength, OldStrength);
+}
+
+void UAuraAttributeSet::OnRep_Intelligence(const FGameplayAttributeData& OldIntelligence) const
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, Intelligence, OldIntelligence);
+}
+
+void UAuraAttributeSet::OnRep_Resilience(const FGameplayAttributeData& OldResilience) const
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, Resilience, OldResilience);
+}
+
+void UAuraAttributeSet::OnRep_Vigor(const FGameplayAttributeData& OldVigor) const
+{
+	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, Vigor, OldVigor);
 }
 
