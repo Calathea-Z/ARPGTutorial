@@ -90,5 +90,4 @@ template <typename T>
 T* UOverlayWidgetController::GetDataTableRowByTag(UDataTable* DataTable, const FGameplayTag& Tag)
 {
 	return DataTable->FindRow<T>(Tag.GetTagName(), TEXT(""));
-
 }
