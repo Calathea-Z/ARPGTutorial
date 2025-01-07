@@ -47,6 +47,8 @@
 				"G:/Repos/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/PrimaryAttributes/GE_AuraPrimaryAttributes.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/TestActor/BP_TestActor.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/TestActor/GE_TestAttributeBased.uasset",
+				"G:/Repos/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraPrimaryAttributes.uasset",
+				"G:/Repos/Aura/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_AuraSecondaryAttributes.uasset",
 				"G:/Repos/Aura/Content/Blueprints/AbilitySystem/Data/DT_InitialPrimaryValues.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/Potion/CT_PotionHeal.uasset",
 				"G:/Repos/Aura/Content/Blueprints/Actor/Potion/GE_CrystalHeal.uasset",

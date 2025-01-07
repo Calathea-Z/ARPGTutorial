@@ -35,7 +35,12 @@ protected:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category="Attributes")
 	TSubclassOf<UGameplayEffect> DefaultPrimaryAttributes;
 
-	void InitializePrimaryAttributes() const;
+	UPROPERTY(BlueprintReadOnly, EditAnywhere, Category="Attributes")
+	TSubclassOf<UGameplayEffect> DefaultSecondaryAttributes;
+
+
+	void ApplyEffectToSelf(TSubclassOf<UGameplayEffect> EffectClass, float level) const;
+	void InitializeDefaultAttributes() const;
 	
 	// A pointer is a variable that stores the memory address of another variable. 
 	// In C++, pointers are used to directly access and manipulate memory, which can be more efficient than copying data.

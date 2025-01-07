@@ -11,9 +11,7 @@
 UAuraAttributeSet::UAuraAttributeSet()
 {
 	InitHealth(10.f);
-	InitMaxHealth(100.f);
 	InitMana(10.f);
-	InitMaxMana(50.f);
 }
 
 void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
@@ -22,6 +20,16 @@ void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 
 	FDoRepLifetimeParams LifetimeParams;
 	LifetimeParams.Condition = COND_None;
+	
+	//Vital Attributes
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Health, LifetimeParams);
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Mana, LifetimeParams);
+	
+	//Primary Attributes
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Strength, LifetimeParams);
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Intelligence, LifetimeParams);
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Resilience, LifetimeParams);
+	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Vigor, LifetimeParams);
 
 	//Secondary Attributes
 	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Armor, LifetimeParams);
@@ -34,16 +42,6 @@ void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
 	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, ManaRegeneration, LifetimeParams);
 	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, MaxHealth, LifetimeParams);
 	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, MaxMana, LifetimeParams);
-	
-	//Primary Attributes
-	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Strength, LifetimeParams);
-	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Intelligence, LifetimeParams);
-	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Resilience, LifetimeParams);
-	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Vigor, LifetimeParams);
-
-	//Vital Attributes
-	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Health, LifetimeParams);
-	DOREPLIFETIME_WITH_PARAMS(UAuraAttributeSet, Mana, LifetimeParams);
 }
 
 void UAuraAttributeSet::PreAttributeChange(const FGameplayAttribute& Attribute, float& NewValue)
