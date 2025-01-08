@@ -3,6 +3,7 @@
 #include "CoreMinimal.h" // Includes the core minimal set of headers required for Unreal Engine
 #include "AbilitySystemInterface.h"
 #include "GameFramework/Character.h" // Includes the base character class from Unreal Engine
+#include "Interaction/CombatInterface.h"
 #include "CharacterBase.generated.h" // Generates the necessary code for the CharacterBase class
 
 class UGameplayEffect;
@@ -10,7 +11,7 @@ class UAbilitySystemComponent;
 class UAttributeSet;
 UCLASS(Abstract) // Declares this class as an abstract class, meaning it cannot be instantiated directly
 
-class AURA_API ACharacterBase : public ACharacter, public IAbilitySystemInterface
+class AURA_API ACharacterBase : public ACharacter, public IAbilitySystemInterface, public ICombatInterface
 {
 	GENERATED_BODY() // Macro that generates the boilerplate code needed for Unreal Engine classes
 
